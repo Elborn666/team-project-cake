@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://elborn666.github.io/Parcel-2023/",
+  "homepage": "https://github.com/Elborn666/team-project-cake",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Parcel-2023/"
+    "build": "parcel build src/*.html --public-url /team-project-cake"
   },
   "repository": {
     "type": "git",
