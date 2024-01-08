@@ -1,0 +1,103 @@
+body {
+    color: var(--general-color);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.general-title {
+    color: var(--second-color);
+    font-size: 100px;
+    font-weight: 800;
+}
+.title {
+    color: var(--second-color);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 100%; /* 60px */
+}
+.button-frame {
+    color: var(--general-color);
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px; /* 166.667% */
+
+    border-radius: 4px;
+    border: 1px solid var(--general-color);
+}
+.button-inherit {
+    color: var(--button-color);
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 38px; /* 146.154% */
+
+    border-radius: 6px;
+    border: 3px solid var(--button-color);
+}
+.button-blue {
+    color: var(--white-color);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+
+    border-radius: 8px;
+    border: 3px solid var(--button-color);
+    background: var(--button-color);
+}
+.button-grey {
+    color: var(--general-color);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+
+    border-radius: 8px;
+    border: 1px solid rgba(95, 105, 128, 0.20);
+    background: rgba(95, 105, 128, 0.20);
+}
+.hidden {
+    overflow: hidden
+}
+@media screen and (max-width: 991.98px) {
+    .container {
+        max-width: 940px;
+    }
+    .general-title {
+        font-size: 80px;
+    }
+    .title {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+}
+@media screen and (max-width: 479.98px) {
+    .container {
+        max-width: 320px;
+    }
+    .general-title {
+        font-size: 24px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .button-inherit {
+        font-size: 20px;
+        line-height: 32px; /* 146.154% */
+    
+        border: 1px solid var(--button-color);
+    }
+}
+
+// Плавний ховер
+// transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// box-shadow: 0px 13px 19px rgba(0,0,0,.07);
