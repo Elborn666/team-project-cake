@@ -24,9 +24,10 @@ body {
     line-height: 100%; /* 60px */
 }
 .button-frame {
+    padding: 1px 10px;
     color: var(--general-color);
     font-family: 'Inter';
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     line-height: 20px; /* 166.667% */
 
@@ -96,6 +97,9 @@ body {
     }
     .title {
         font-size: 48px;
+    }
+    .button-frame {
+        font-size: 12px;
     }
     .button-inherit {
         font-size: 26px;    
