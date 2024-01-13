@@ -1,0 +1,105 @@
+.cataloge__card-container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.cataloge__card-list {
+    display: flex;
+    margin-bottom: 20px;
+}
+.cataloge__card-item {
+    display: flex;
+    align-items: center;
+}
+.cataloge__card-link {
+    color: var(--general-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+.link-icon {
+    width: 16px;
+    height: 16px;
+    fill: var(--general-color);
+}
+.cataloge__card-link span {
+    color: var(--second-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+.cataloge__list-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.cataloge__item-card {
+}
+.cataloge__card-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.cataloge__card-thumb {
+    position: relative;
+    z-index: 20;
+    margin-top: 8px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.75);
+}
+.cataloge__wrapper-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.cataloge__name {
+    color: var(--second-color);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px; /* 110% */
+    letter-spacing: -0.275px;
+}
+.cataloge__wrapper-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--general-color);
+    border-radius: 40px;
+}
+.cataloge__card-icon {
+    width: 18px;
+    height: 18px;
+}
+.cataloge__list-tag {
+    display: flex;
+    gap: 4px;
+}
+.cataloge__item-tag {
+    padding: 1px 10px;
+}
+@media screen and (min-width: 767.98px) {
+    .cataloge__list-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+    .cataloge__item-card {
+        width: 288px;
+    }
+}
+@media screen and (min-width: 991.98px) {
+    .cataloge__item-card {
+        min-width: 443px;
+    }
+    .cataloge__card-thumb {
+        width: 420px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: -144px;
+        padding: 32px;
+    }
+}
