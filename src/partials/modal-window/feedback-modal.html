@@ -1,14 +1,22 @@
-<div class="feedback__modal">
+<div class="feedback__modal js-modal">
     <div class="modal__container">
         <div class="modal__body">
-            <h2 class="modal__title title">Зворотний зв’язок</h2>
-            <p class="modal__text">Залиште ваші данні, наш менеджер зв'яжеться з вами протягом 30 хвилин</p>
+            <div class="modal__wrapper-icon js-close">
+                <svg class='modal__icon-close'>
+                    <use href='/src/images/icon/sprite.svg#icon-close'></use>
+                </svg>
+            </div>
+            <h2 class="modal__title title">Зворотній зв’язок</h2>
+            <p class="modal__text">Залиште ваші данні, наш менеджер зв'яжеться з вами протягом 30 хвилин.</p>
             <form action="#" class="modal__form">
-                <input type="text" required placeholder="Ваше ім’я" class="modal__name">
+                <input type="text" required placeholder="Ваше ім’я" minlength="3" maxlength="10" class="modal__name">
                 <input type="text" placeholder="Подія (не обов’язково)" class="modal__event">
                 <input type="text" placeholder="Коментар (не обов’язково)" class="modal__comment">
-                <input type="number" required class="modal__phone">
-                <button type="submit" class="modal__button button-inherit">Надіслати</button>
+                <div class="modal__wrapper-input">
+                    <label for="tell" class="modal__label-phone">+38</label>
+                    <input type="number" name="tell" required placeholder="(050) 505 - 50 - 50" class="modal__phone">
+                </div>
+                <button type="submit" class="modal__button button-inherit js-submit">Надіслати</button>
             </form>
         </div>
     </div>
