@@ -78,6 +78,9 @@
     display: flex;
     gap: 4px;
 }
+.cataloge__tag-link {
+    color: var(--general-color);
+}
 @media screen and (min-width: 767.98px) {
     .cataloge__list-card {
         flex-direction: row;
@@ -157,6 +160,9 @@
         &:hover {
             color: var(--button-color);
             border: 1px solid var(--button-color);
+        }
+        &:hover .cataloge__tag-link {
+            color: var(--button-color);
         }
     }
 }
