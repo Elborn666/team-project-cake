@@ -227,6 +227,9 @@
     }
 }
 @media screen and (min-width: 991.98px) {
+    .header__body {
+        padding-bottom: 23px;
+    }
     .header__wrapper-social {
         flex-direction: column;
         justify-content: center;
