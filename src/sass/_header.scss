@@ -224,6 +224,15 @@
     }
 }
 @media screen and (min-width: 991.98px) {
+    .header__wrapper-social {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .header__wrapper-input {
+        display: flex;
+        margin-top: 24px;
+    }
     .headder__item-social {
         transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover {
@@ -247,10 +256,7 @@
             fill: rgba(1, 159, 171, 0.8);
         }
     }
-    .wrapper__block {
-        justify-content: space-between;
-    }
-    .header__wrapper-burger {
+    .header__wrapper-search {
         display: none;
     }
     .header__wrapper-tel {
@@ -283,6 +289,9 @@
             color: rgba(1, 159, 171, 0.8);
         }
     }
+    .login__text {
+        display: block;
+    }
     .header__wrapper-cart {
         &:hover .wrapper__cart {
             border: 1px solid rgba(1, 159, 171, 0.8);
@@ -294,19 +303,11 @@
             color: rgba(1, 159, 171, 0.8);
         }
     }
-}
-@media screen and (min-width: 1439.98px) {
-    .header__wrapper-search {
+    .cart__text {
+        display: block;
+    }
+    .header__wrapper-burger {
         display: none;
-    }
-    .header__wrapper-social {
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .header__wrapper-input {
-        display: flex;
-        margin-top: 24px;
     }
     .header__name-cake {
         font-size: 60px;
@@ -319,11 +320,5 @@
     }
     .header__tel {
         font-size: 24px;
-    }
-    .login__text {
-        display: block;
-    }
-    .cart__text {
-        display: block;
     }
 }
