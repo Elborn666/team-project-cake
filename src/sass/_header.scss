@@ -1,9 +1,11 @@
+.header__line {
+    border-bottom: 1px solid rgba(95, 105, 128, 0.30);
+}
 .header__body {
     display: flex;
     justify-content: space-around;
     padding-top: 18px;
     padding-bottom: 17px;
-    border-bottom: 1px solid rgba(95, 105, 128, 0.30);
 }
 .header__wrapper-social {
     display: none;
@@ -21,6 +23,7 @@
     height: 32px;
     border: 1px solid rgba(95, 105, 128, 0.80);
     border-radius: 6px;
+    cursor: pointer;
 }
 .icon-fb {
     width: 20px;
@@ -233,8 +236,13 @@
         display: flex;
         margin-top: 24px;
     }
+    .icon-fb,
+    .icon-inst,
+    .icon-telegram {
+        transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
     .headder__item-social {
-        transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: border 450ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover {
             border: 1px solid rgba(1, 159, 171, 0.8);
         }
@@ -248,7 +256,11 @@
             fill: rgba(1, 159, 171, 0.8);
         }
     }
+    .icon-input {
+        transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
     .header__wrapper-input {
+        transition: border-bottom 450ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover {
             border-bottom: 1px solid rgba(1, 159, 171, 0.8);
         }
@@ -258,6 +270,15 @@
     }
     .header__wrapper-search {
         display: none;
+    }
+    .wrapper__tel {
+        transition: border 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .icon-tel {
+        transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .header__tel {
+        transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .header__wrapper-tel {
         &:hover .wrapper__tel {
@@ -270,6 +291,12 @@
             color: rgba(1, 159, 171, 0.8);
         }
     }
+    .wrapper__search {
+        transition: border 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .icon-search {
+        transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
     .header__wrapper-search {
         &:hover .wrapper__search {
             border: 1px solid rgba(1, 159, 171, 0.8);
@@ -277,6 +304,12 @@
         &:hover .icon-search {
             fill: rgba(1, 159, 171, 0.8);
         }
+    }
+    .wrapper__login {
+        transition: border 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .icon-login {
+        transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .header__wrapper-login {
         &:hover .wrapper__login {
@@ -291,6 +324,13 @@
     }
     .login__text {
         display: block;
+        transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .wrapper__cart {
+        transition: border 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .icon-cart {
+        transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .header__wrapper-cart {
         &:hover .wrapper__cart {
@@ -305,6 +345,7 @@
     }
     .cart__text {
         display: block;
+        transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .header__wrapper-burger {
         display: none;
