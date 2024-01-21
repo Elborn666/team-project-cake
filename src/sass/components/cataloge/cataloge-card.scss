@@ -1,8 +1,4 @@
 .cataloge__card-container {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -110,7 +106,6 @@
 }
 @media screen and (min-width: 991.98px) {
     .cataloge__card-container {
-        width: 992px;
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 60px;
@@ -189,7 +184,6 @@
 }
 @media screen and (min-width: 1439.98px) {
     .cataloge__card-container {
-        width: 1440px;
         padding-left: 80px;
         padding-right: 80px;
     }
