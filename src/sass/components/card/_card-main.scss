@@ -148,6 +148,9 @@
     border-bottom: 1px solid rgba(95, 105, 128, 0.2);
 }
 @media screen and (min-width: 767.98px) {
+    .card__container {
+        padding-top: 80px;
+    }
     .card__body {
         display: flex;
         flex-direction: row;
