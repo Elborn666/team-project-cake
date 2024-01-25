@@ -1,2 +1,2 @@
 const e=document.querySelector("body"),t=document.querySelector(".js-open"),n=document.querySelector(".js-close"),c=document.querySelector(".js-form"),o=document.querySelector(".js-modal");function s(){o.classList.remove("is-open"),e.classList.remove("hidden")}t.addEventListener("click",(function(){o.classList.add("is-open"),e.classList.add("hidden")})),n.addEventListener("click",s),c.addEventListener("submit",(function(e){e.preventDefault(),e.currentTarget.reset(),s()})),window.addEventListener("keydown",(function(e){"Escape"===e.code&&s()}));
-//# sourceMappingURL=contacts.0f7943e4.js.map
+//# sourceMappingURL=cataloge.85528bf6.js.map
