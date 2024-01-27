@@ -1,40 +1,29 @@
 .main {
-    background-color: var(--white-color);
+  background-color: var(--white-color);
 }
 // .main__container {
 // }
 // .main__body {
 // }
 .p {
-    margin-bottom: 40px;
-    font-size: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 .lorem {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .main__list {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 // .main__item {
 // }
 .link {
-    font-style: 20px;
+  font-style: 20px;
 }
 .icon {
-    width: 40px;
-    height: 40px;
-    fill: aqua;
+  width: 40px;
+  height: 40px;
+  fill: aqua;
 }
-.swiper {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
 
-@media screen and (min-width: 320px) {
-    .width-slider {
-        width: 320px;
-        height: 124px;
-    }
-}
