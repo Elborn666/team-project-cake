@@ -25,24 +25,72 @@
         </ul>
         <div class="cataloge__main-body">
           <!-- Slider main container -->
+
           <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide"><img src="/src/images/desctop-slider/02.jpg" alt="#"></div>
-              <div class="swiper-slide"><img src="/src/images/desctop-slider/01.jpg" alt="#"></div>
-              <div class="swiper-slide"><img src="/src/images/desctop-slider/03.jpg" alt="#"></div>
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                      /src/images/slider-tablet/01.jpg,
+                      /src/images/slider-tablet2x/01.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img class="img-slider"
+                    src="/src/images/slider-tablet/01.jpg"
+                    alt="photo1"
+                    loading="lazy"
+                    
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                       /src/images/slider-tablet/02.jpg 1x,
+                      /src/images/slider-tablet2x/02.jpg 2x
+                    "
+                    type="image/jpg"
+                    
+                  />
+                  <img class="img-slider"
+                    src="/src/images/slider-tablet/02.jpg"
+                    alt="photo2"
+                    loading="lazy"
+                  
+                  />
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture>
+                  <source
+                    media="(min-width: 320px)"
+                    srcset="
+                       /src/images/slider-tablet/03.jpg 1x,
+                      /src/images/slider-tablet2x/03.jpg 2x
+                    "
+                    type="image/jpg"
+                    
+                  />
+                  <img class="img-slider"
+                    src="/src/images/slider-tablet/03.jpg"
+                    alt="photo3"
+                    loading="lazy"
+                    
+                  />
+                </picture>
+              </div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
           </div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
         </div>
       </div>
     </div>
