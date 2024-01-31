@@ -157,6 +157,9 @@
         width: 190px;
         margin-bottom: 0px;
     }
+    .contact__feedback-phone {
+        min-width: 380px;
+    }
 }
 @media screen and (min-width: 768.98px) {
     .contact__contact-container {
@@ -191,6 +194,9 @@
     }
     .contact__feedback-form {
         gap: 20px;
+    }
+    .contact__feedback-phone {
+        min-width: 285px;
     }
 }
 @media screen and (min-width: 991.98px) {
