@@ -3,17 +3,26 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-.contact__main-body {
-}
 .contact__wrapper-img {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 .contact__main-img {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+.contact__wrapper-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .contact__main-title {
     text-align: center;
@@ -46,6 +55,7 @@
 @media screen and (min-width: 767.98px) {
     .contact__wrapper-content {
         padding: 0px 40px;
+        margin-top: -20px;
     }
     .contact__main-title {
         font-size: 60px;
@@ -72,8 +82,18 @@
     .contact__wrapper-img {
         padding-top: 40px;
     }
+    .contact__wrapper-content {
+        margin-top: 0px;
+    }
     .contact__main-title {
         font-size: 80px;
+    }
+    .contact__main-button {
+        transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover {
+            background-color: var(--button-color);
+            color: var(--white-color);
+        }
     }
 }
 @media screen and (min-width: 1439.98px) {
