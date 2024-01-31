@@ -35,9 +35,9 @@
 .modal__wrapper-icon {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: auto;
+    justify-content: space-between;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .modal__icon-close {
     width: 24px;
@@ -45,8 +45,10 @@
     fill: var(--second-color);
 }
 .modal__title {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color: var(--second-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%; /* 60px */
 }
 .modal__text {
     margin-bottom: 10px;
@@ -111,12 +113,6 @@
 @media screen and (min-width: 768.98px) {
     .modal__body {
         padding: 25px;
-    }
-    .modal__title {
-        margin-bottom: 25px;
-    }
-    .modal__text {
-        margin-bottom: 25px;
     }
     .modal__form {
         gap: 20px;
