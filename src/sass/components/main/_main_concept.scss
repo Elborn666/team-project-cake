@@ -1,3 +1,7 @@
+.another-color {
+  color: #001648;
+  font-weight: 700;
+}
 .position-text-main {
   padding-top: 40px;
   padding-bottom: 48px;
@@ -38,10 +42,10 @@
   }
 }
 @media screen and (min-width: 767.98px) {
-    .secondary-title {
-        font-size: 60px;
-        line-height: 60px;
-    }
+  .secondary-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .first-paragraph-hero {
@@ -77,19 +81,20 @@
   color: #5f6980;
 }
 @media screen and (min-width: 479.98px) {
-  .first-paragraph-hero, .second-paragraph-hero,
-   .third-paragraph-hero, .fourth-paragraph-hero {
+  .first-paragraph-hero,
+  .second-paragraph-hero,
+  .third-paragraph-hero,
+  .fourth-paragraph-hero {
     font-size: 20px;
     line-height: 30px;
   }
 }
 @media screen and (min-width: 767.98px) {
-    .first-paragraph-hero, .second-paragraph-hero,
-   .third-paragraph-hero, .fourth-paragraph-hero {
+  .first-paragraph-hero,
+  .second-paragraph-hero,
+  .third-paragraph-hero,
+  .fourth-paragraph-hero {
     font-size: 24px;
     line-height: 36px;
   }
-}
-.another-color {
-  color: #001648;
 }
