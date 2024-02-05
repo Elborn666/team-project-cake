@@ -1,0 +1,67 @@
+<section class="team container">
+  <picture>
+    <source
+      media="(min-width: 320px) and (max-width: 339px)"
+      srcset="
+        ./images/hero-images/mobile/310x312.jpg 1x,
+        ./images/hero-images/mobile/620x624.jpg 2x
+      "
+      type="image/jpeg"
+    />
+    <source
+      media="(min-width: 340px) and (max-width: 399px)"
+      srcset="
+        ./images/hero-images/mobile/340x312.jpg 1x,
+        ./images/hero-images/mobile/680x624.jpg 2x
+      "
+      type="image/jpeg"
+    />
+    <source
+      media="(min-width: 400px) and (max-width: 479px)"
+      srcset="
+        ./images/hero-images/mobile/390x312.jpg 1x,
+        ./images/hero-images/mobile/780x624.jpg
+      "
+      type="image/jpeg"
+    />
+    <source
+      media="(min-width: 480px) and (max-width: 991px)"
+      srcset="
+        ./images/hero-images/tablet/444x440.jpg 1x,
+        ./images/hero-images/tablet/888x880.jpg 2x
+      "
+      type="image/jpeg"
+      sizes="width: 444px"
+    />
+    <source
+      media="(min-width: 992px)"
+      srcset="
+        ./images/hero-images/desctop/626x600.jpg   1x,
+        ./images/hero-images/desctop/1252x1200.jpg 2x,
+        ./images/hero-images/desctop/1878x1800.jpg 3x
+      "
+      type="image/jpeg"
+      sizes="width: 626px"
+    />
+    <img
+      class="position-image-cake"
+      src="./images/hero-images/mobile/310x312.jpg"
+      alt="cake1"
+    />
+  </picture>
+  <div class="position-arrow">
+    <h4 class="title-catalogy">До каталогу товарів</h4>
+    <div class="cataloge__wrapper-icon">
+      <a href="#">
+        <svg class="cataloge__card-icon">
+          <use href="/src/images/icon/sprite.svg#icon-arrow-up-right"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <ul class="list-catalogy">
+    <li class="link-catalogy"><a class="links-caralog" href="#">Торти</a></li>
+    <li class="link-catalogy"><a class="links-caralog" href="#">Десерти</a></li>
+    <li class="link-catalogy"><a class="links-caralog" href="#">Випічка</a></li>
+  </ul>
+</section>
