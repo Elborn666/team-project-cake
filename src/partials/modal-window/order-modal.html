@@ -1,0 +1,110 @@
+<div class="order__modal js-modal-basket-modal">
+    <div class="order__modal-container">
+        <div class="order__modal-body">
+            <div class="order__modal-wrapper-icon">
+                <h2 class="order__modal-title">Замовлення</h2>
+                <svg class='order__modal-icon-close js-close-order-modal'>
+                    <use href='/src/images/icon/sprite.svg#icon-close'></use>
+                </svg>
+            </div>
+            <form action="#" class="order__form">
+                <div class="order__form-wrapper">
+                    <label for="name" class="order__form-name">Введіть Ваше ім’я
+                        <input type="text" id="name" name="name" required placeholder="Вікторія"
+                            class="order__form-input-name">
+                    </label>
+                    <label for="tel" class="order__form-tel">Введіть Ваш номер телефону
+                        <input type="tel" id="tel" name="tel" required placeholder="38 (096) 02 00 369"
+                            class="order__form-input-tel">
+                    </label>
+                    <label for="email" class="order__form-email">Введіть Вашу електронну адресу (необов’язково)
+                        <input type="email" id="email" name="email" placeholder="lyublyutort@gmail.com"
+                            class="order__form-input-email">
+                    </label>
+                </div>
+                <div class="order__form-wrapper-radio">
+                    <label for="delivery" class="order__form-radio-delivery">
+                        <input type="radio" id="delivery" name="delivery" value="delivery" class="order__form-delivery">
+                        <span class="custom__radio-button"></span>
+                        Доставка
+                    </label>
+                    <label for="self-pickup" class="order__form-radio-delivery">
+                        <input type="radio" id="self-pickup" name="delivery" value="self-pickup"
+                            class="order__form-delivery">
+                        <span class="custom__radio-button"></span>
+                        Самовивіз
+                    </label>
+                </div>
+                <div class="order__form-time">
+                    <p class="order__time-delivery">Час доставки</p>
+                    <label for="date" class="order__form-date">Дата доставки
+                        <input type="date" id="date" name="date" required value="2024-03-22"
+                            class="order__form-input-date">
+                    </label>
+                    <label for="time" class="order__form-date">Час (необов’язково)
+                        <input type="time" id="time" name="time" value="12:00" class="order__form-input-time">
+                    </label>
+                </div>
+                <div class="order__form-area">
+                    <p class="order__area">Місце доставки</p>
+                    <label for="area" class="order__form-label-area">Населений пункт
+                        <input type="text" id="area" name="area" placeholder="м.Одеса" class="order__form-input-area">
+                    </label>
+                    <label for="street" class="order__form-label-area">Вулиця, номер будинку, під’їзд, квартира/офіс
+                        <input type="text" id="street" name="street" placeholder="вул. Софіївська, буд. 1, п.1, кв. 1"
+                            class="order__form-input-area">
+                    </label>
+                </div>
+                <div class="order__form-details">
+                    <p class="order__details">Деталі до замовлення</p>
+                    <label for="inscription" class="order__form-label-details">Напис на торті (необов’язково)
+                        <input type="text" id="inscription" name="inscription" placeholder="Моїй денечці 3 роки"
+                            class="order__form-input-details">
+                    </label>
+                    <label for="wish" class="order__form-label-details">Ваші побажання (необов’язково)
+                        <textarea type="text" id="wish" name="wish" class="order__form-textarea-details"></textarea>
+                    </label>
+                </div>
+                <div class="order__form-payment">
+                    <p class="order__payment">Оплата</p>
+                    <div class="order__wrapper-payment">
+                        <label for="cash" class="order__form-label-payment">
+                            <input type="radio" id="cash" name="payment" class="order__form-input-payment">
+                            <span class="custom__radio-button"></span>
+                            Готівкою
+                        </label>
+                        <label for="card" class="order__form-label-payment">
+                            <input type="radio" id="card" name="payment" class="order__form-input-payment">
+                            <span class="custom__radio-button"></span>
+                            На картку
+                        </label>
+                    </div>
+                </div>
+                <div class="order__wrapper-order">
+                    <div class="order__modal-wrapper-price">
+                        <p class="order__price-text">Вартість замовлення</p>
+                        <p class="order__price">800 грн</p>
+                    </div>
+                    <button class="order__modal-button button-blue">Оформити</button>
+                </div>
+            </form>
+            <div class="order__contact-body">
+                <div class="order__contact-contact">
+                    <a href="tel:+380989888888" class="order__contact-tell">+38 (098) 988 - 88 -88</a>
+                    <div class="order__contact-wrapper">
+                        <a href="#" target="_blank" class="order__contact-social">
+                            <svg class='order__contact-icon'>
+                                <use href='/src/images/icon/sprite.svg#icon-telegram'></use>
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" class="order__contact-telegram">Телеграм</a>
+                    </div>
+                </div>
+                <div class="order__contact-offer">
+                    <p class="order__contact-time">Замовлення усіх кондитерських виробів можливе за 72 години.</p>
+                    <p class="order__contact-time">Для замовлення у коротші терміни зателефонуйте або напишіть нам.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
