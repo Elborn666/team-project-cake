@@ -1,4 +1,4 @@
-<div class="order__modal js-modal-basket-modal order-is-open">
+<div class="order__modal js-modal-basket-modal">
     <div class="order__modal-container">
         <div class="order__modal-body">
             <div class="order__modal-wrapper-icon">
@@ -25,11 +25,13 @@
                 <div class="order__form-wrapper-radio">
                     <label for="delivery" class="order__form-radio-delivery">
                         <input type="radio" id="delivery" name="delivery" value="delivery" class="order__form-delivery">
+                        <span class="custom__radio-button"></span>
                         Доставка
                     </label>
                     <label for="self-pickup" class="order__form-radio-delivery">
-                        <input type="radio" id="self-pickup" name="self-pickup" value="self-pickup"
-                            class="order__form-self-pickup">
+                        <input type="radio" id="self-pickup" name="delivery" value="self-pickup"
+                            class="order__form-delivery">
+                        <span class="custom__radio-button"></span>
                         Самовивіз
                     </label>
                 </div>
@@ -67,23 +69,25 @@
                     <p class="order__payment">Оплата</p>
                     <div class="order__wrapper-payment">
                         <label for="cash" class="order__form-label-payment">
-                            <input type="radio" id="cash" name="cash" class="order__form-input-payment">
+                            <input type="radio" id="cash" name="payment" class="order__form-input-payment">
+                            <span class="custom__radio-button"></span>
                             Готівкою
                         </label>
                         <label for="card" class="order__form-label-payment">
-                            <input type="radio" id="card" name="card" class="order__form-input-payment">
+                            <input type="radio" id="card" name="payment" class="order__form-input-payment">
+                            <span class="custom__radio-button"></span>
                             На картку
                         </label>
                     </div>
                 </div>
-            </form>
-            <div class="order__wrapper-order">
-                <div class="order__modal-wrapper-price">
-                    <p class="order__price-text">Вартість замовлення</p>
-                    <p class="order__price">800 грн</p>
+                <div class="order__wrapper-order">
+                    <div class="order__modal-wrapper-price">
+                        <p class="order__price-text">Вартість замовлення</p>
+                        <p class="order__price">800 грн</p>
+                    </div>
+                    <button class="order__modal-button button-blue">Оформити</button>
                 </div>
-                <button class="order__modal-button button-blue">Оформити</button>
-            </div>
+            </form>
             <div class="order__contact-body">
                 <div class="order__contact-contact">
                     <a href="tel:+380989888888" class="order__contact-tell">+38 (098) 988 - 88 -88</a>
