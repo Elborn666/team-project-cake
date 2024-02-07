@@ -1,6 +1,20 @@
+.cataloge__main {
+    display: flex;
+    flex-direction: column;
+}
+.cataloge__main-body {
+    padding-top: 20px;
+    order: 2;
+}
+.cataloge__main-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
 .cataloge__main-container {
     max-width: 1440px;
     margin: 0 auto;
+    order: 1;
 }
 .cataloge__main-list {
     display: none;
@@ -21,14 +35,6 @@
 .active {
     color: rgba(0, 22, 72, 0.8);
     border-bottom: 2px solid rgba(0, 22, 72, 0.8);
-}
-.cataloge__main-body {
-    padding-top: 20px;
-}
-.cataloge__main-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
 }
 @media screen and (min-width: 479.98px) {
     .cataloge__main-body {
