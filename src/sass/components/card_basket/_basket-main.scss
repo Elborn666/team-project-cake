@@ -1,0 +1,133 @@
+.basket__main {
+}
+.basket__main-container {
+}
+.basket__main-body {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(95, 105, 128, 0.2);
+}
+.basket__main-wrapper-filter {
+    margin-bottom: 20px;
+}
+.basket__main-filter {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 9px 16px;
+    font-size: 12px;
+    line-height: 24px; /* 200% */
+}
+.setting-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.chevron-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+}
+.basket__main-nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    margin-bottom: 20px;
+}
+.basket__main-nav-item {
+    display: flex;
+    align-items: center;
+}
+.basket__main-nav-link {
+    color: var(--general-color);
+    font-size: 12px;
+    line-height: 16px; /* 133.333% */
+}
+.basket__main-title {
+    margin-bottom: 12px;
+}
+.basket__main-cake-list {
+    padding: 20px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid rgba(95, 105, 128, 0.2);
+}
+.basket__main-cake-item {
+    min-width: 280px;
+}
+.basket__main-wrapper-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.basket__main-cake-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.basket__main-thumb {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basket__main-name {
+    margin-bottom: 5px;
+    color: var(--second-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: -0.6px;
+}
+.basket__main-kind {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 150%; /* 15px */
+}
+.basket__main-choise {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    background-color: inherit;
+}
+.basket__main-pagination {
+}
+@media screen and (min-width: 479.98px) {
+    .basket__main-filter {
+        font-size: 16px;
+    }
+    .basket__main-nav-link {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 619.98px) {
+    .basket__main-title {
+        font-size: 28px;
+    }
+    .basket__main-cake-item {
+        width: 48%;
+    }
+    .basket__main-name {
+        font-size: 18px;
+    }
+    .basket__main-kind {
+        font-size: 16px;
+    }
+    .basket__main-choise {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 991.98px) {
+    .basket__main-title {
+        font-size: 48px;
+    }
+    .basket__main-cake-list {
+        gap: 30px;
+    }
+    .basket__main-cake-item {
+        width: 31%;
+    }
+    
+}
