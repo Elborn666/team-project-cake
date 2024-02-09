@@ -1,6 +1,6 @@
 // const body = document.querySelector('body');
 // const modalBasket = document.querySelector('.js-modal-basket-full');
-// const btnOpenBasket = document.querySelector('.js-open-basket');
+// const btnOpenBasket = document.querySelector('.js-open-basket-full');
 // const btnFullNext = document.querySelector('.js-full-next');
 
 // btnOpenBasket.addEventListener('click', onOpenBasket);
