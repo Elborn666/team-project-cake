@@ -1,0 +1,33 @@
+.basket__how-container {
+}
+.basket__how-body {
+    padding: 40px 0px;
+}
+.basket__how-title {
+    margin-bottom: 24px;
+}
+.basket__how-list-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-bottom: 32px;
+}
+.basket__how-item-text {
+    line-height: 150%; /* 21px */
+}
+.basket__how-text {
+}
+.basket__how-button {
+    padding: 13px 16px;
+    background-color: inherit;
+}
+@media screen and (min-width: 619.98px) {
+   .basket__how-title {
+        font-size: 28px;
+   }
+}
+@media screen and (min-width: 991.98px) {
+    .basket__how-title {
+        font-size: 48px;
+    }
+}
