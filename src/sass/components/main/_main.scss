@@ -82,6 +82,11 @@
 }
 
 .swiper {
-  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.swiper {
+  max-width: 390px;
+}
