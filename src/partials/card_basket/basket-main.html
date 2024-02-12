@@ -2,17 +2,17 @@
     <div class="basket__main-container container">
         <div class="basket__main-body">
             <div class="basket__main-wrapper-filter">
-                <details class="spoiler-filter">
-                    <summary class="basket__main-spoiler">
-                        <button type="button" class="basket__main-filter button-blue">
+                <div class="spoiler-filter">
+                    <div class="basket__main-spoiler js-triger-spoiler">
+                        <button type="button" class="basket__main-filter button-blue js-spoiler-button">
                             <img src="/src/images/icon/setting.png" alt="icon-setting" class="setting-icon">
                             Розгорнути фільтри
-                            <svg class='chevron-icon'>
+                            <svg class='chevron-icon js-spoiler-icon'>
                                 <use href='/src/images/icon/sprite.svg#icon-chevron-down'></use>
                             </svg>
                         </button>
-                    </summary>
-                    <div class="basket__main-wrapper-list">
+                    </div>
+                    <div class="basket__main-wrapper-list js-spoiler-content">
                         <h3 class="basket__main-filter-title">Торти</h3>
                         <ul class="basket__main-filter-list">
                             <li class="basket__main-filter-item">Весільний торт</li>
@@ -35,16 +35,15 @@
                             <li class="basket__main-filter-item">Макаруни</li>
                         </ul>
                         <h3 class="basket__main-filter-title">Сортування по ціні</h3>
-                        <input type="range" value="100" min="0" max="800" class="basket__main-filter-range">
+                        <input type="range" value="100" min="0" max="800" class="basket__main-filter-range js-change-value">
                         <div class="basket__main-fiter-wrapper-button">
-                            <button class="basket__main-fiter-button-less button-frame">100</button>
-                            <button class="basket__main-fiter-button-more button-frame">800</button>
+                            <p class="basket__main-fiter-button-value button-frame js-value">100</p>
                         </div>
                         <button class="basket__main-fiter-sort button-blue">Відсортувати по ціні</button>
                         <button class="basket__main-fiter-apply">Застосувати фільтри</button>
                         <button class="basket__main-fiter-reset">Скасувати усі фільтри</button>
                     </div>
-                </details>
+                </div>
             </div>
             <div class="basket__main-wrapper">
                 <ul class="basket__main-nav-list">

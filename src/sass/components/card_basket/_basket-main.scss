@@ -1,20 +1,12 @@
-.basket__main {
-}
-.basket__main-container {
-}
 .basket__main-body {
     padding: 20px 0px;
     border-bottom: 1px solid rgba(95, 105, 128, 0.2);
 }
 .basket__main-wrapper-filter {
     margin-bottom: 20px;
+    margin-top: 4px;
 }
 .spoiler-filter {
-    width: 100%;
-}
-.basket__main-spoiler {
-}
-summary.basket__main-spoiler::marker {
     width: 100%;
 }
 .basket__main-filter {
@@ -34,9 +26,16 @@ summary.basket__main-spoiler::marker {
     width: 20px;
     height: 20px;
     margin-left: auto;
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
 }
 .basket__main-wrapper-list {
     padding-left: 32px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(0px, -2%);
+    transition: all 0.5s ease;
 }
 .basket__main-filter-title {
     margin-top: 8px;
@@ -97,11 +96,11 @@ summary.basket__main-spoiler::marker {
     margin-top: 15px;
     margin-bottom: 12px;
 }
-.basket__main-fiter-button-less,
-.basket__main-fiter-button-more  {
+.basket__main-fiter-button-value  {
     width: 100%;
     font-size: 14px;
     background-color: inherit;
+    text-align: center;
 }
 .basket__main-fiter-sort {
     width: 100%;
@@ -242,14 +241,6 @@ summary.basket__main-spoiler::marker {
             color: var(--button-color);
         }
     }
-    .basket__main-fiter-button-less,
-    .basket__main-fiter-button-more  {
-        transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
-        &:hover {
-            color: var(--button-color);
-            border: 1px solid var(--button-color);
-        }
-}
     .basket__main-fiter-sort {
         transition:  background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover {
@@ -288,4 +279,16 @@ summary.basket__main-spoiler::marker {
             color: var(--white-color);
         }
     }
+}
+.change-color {
+    border: 3px solid var(--second-color);
+    background: var(--second-color);
+}
+.open-spoiler {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    pointer-events: all;
+}
+.rotate-icon {
+    transform: rotate(0deg);
 }
