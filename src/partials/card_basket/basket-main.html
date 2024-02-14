@@ -12,38 +12,110 @@
                             </svg>
                         </button>
                     </div>
-                    <div class="basket__main-wrapper-list js-spoiler-content">
+                    <form action="#" class="basket__main-wrapper-list js-spoiler-content">
                         <h3 class="basket__main-filter-title">Торти</h3>
                         <ul class="basket__main-filter-list">
-                            <li class="basket__main-filter-item">Весільний торт</li>
-                            <li class="basket__main-filter-item">Дитячий торт</li>
-                            <li class="basket__main-filter-item">Торт для неї</li>
-                            <li class="basket__main-filter-item">Торт для нього</li>
-                            <li class="basket__main-filter-item">Бенто-тортик</li>
-                            <li class="basket__main-filter-item">Корпоративний торт</li>
+                            <li class="basket__main-filter-item">
+                                <label for="wedding" class="basket__main-filter-label">
+                                    <input type="radio" id="wedding" name="filter"
+                                        class="basket__main-filter-radio">Весільний торт
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="children" class="basket__main-filter-label">
+                                    <input type="radio" id="children" name="filter"
+                                        class="basket__main-filter-radio">Дитячий торт
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="her" class="basket__main-filter-label">
+                                    <input type="radio" id="her" name="filter" class="basket__main-filter-radio">Торт
+                                    для неї
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="his" class="basket__main-filter-label">
+                                    <input type="radio" id="his" name="filter" class="basket__main-filter-radio">Торт
+                                    для нього
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="bento" class="basket__main-filter-label">
+                                    <input type="radio" id="bento" name="filter"
+                                        class="basket__main-filter-radio">Бенто-тортик
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="corporate" class="basket__main-filter-label">
+                                    <input type="radio" id="corporate" name="filter"
+                                        class="basket__main-filter-radio">Корпоративний торт
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
                         </ul>
                         <h3 class="basket__main-filter-title">Випічка</h3>
                         <ul class="basket__main-filter-list">
-                            <li class="basket__main-filter-item">Панкейки</li>
-                            <li class="basket__main-filter-item">Пироги</li>
-                            <li class="basket__main-filter-item">Тістечка</li>
+                            <li class="basket__main-filter-item">
+                                <label for="pancakes" class="basket__main-filter-label">
+                                    <input type="radio" id="pancakes" name="filter"
+                                        class="basket__main-filter-radio">Панкейки
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="pie" class="basket__main-filter-label">
+                                    <input type="radio" id="pie" name="filter" class="basket__main-filter-radio">Пироги
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="cake" class="basket__main-filter-label">
+                                    <input type="radio" id="cake" name="filter"
+                                        class="basket__main-filter-radio">Тістечка
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
                         </ul>
                         <h3 class="basket__main-filter-title">Десерти</h3>
                         <ul class="basket__main-filter-list">
-                            <li class="basket__main-filter-item">Трайфли</li>
-                            <li class="basket__main-filter-item">Цукерки</li>
-                            <li class="basket__main-filter-item">Макаруни</li>
+                            <li class="basket__main-filter-item">
+                                <label for="trifle" class="basket__main-filter-label">
+                                    <input type="radio" id="trifle" name="filter"
+                                        class="basket__main-filter-radio">Трайфли
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="sweets" class="basket__main-filter-label">
+                                    <input type="radio" id="sweets" name="filter"
+                                        class="basket__main-filter-radio">Цукерки
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
+                            <li class="basket__main-filter-item">
+                                <label for="macaroon" class="basket__main-filter-label">
+                                    <input type="radio" id="macaroon" name="filter" class="basket__main-filter-radio">
+                                    Макаруни
+                                    <span class="custom__radio-button-filter"></span>
+                                </label>
+                            </li>
                         </ul>
                         <h3 class="basket__main-filter-title">Сортування по ціні</h3>
                         <input type="range" value="100" min="0" max="800"
                             class="basket__main-filter-range js-change-value">
                         <div class="basket__main-fiter-wrapper-button">
-                            <p class="basket__main-fiter-button-value button-frame js-value">100</p>
+                            <input type="text" class="basket__main-fiter-button-value button-frame js-value"><span
+                                class="basket__main-fiter-value js-test">100</span>
                         </div>
-                        <button class="basket__main-fiter-sort button-blue">Відсортувати по ціні</button>
-                        <button class="basket__main-fiter-apply">Застосувати фільтри</button>
-                        <button class="basket__main-fiter-reset">Скасувати усі фільтри</button>
-                    </div>
+                        <button type="submit" class="basket__main-fiter-sort button-blue">Відсортувати по ціні</button>
+                        <button type="submit" class="basket__main-fiter-apply">Застосувати фільтри</button>
+                        <button type="reset" class="basket__main-fiter-reset js-reset">Скасувати усі фільтри</button>
+                    </form>
                 </div>
             </div>
             <div class="basket__main-wrapper">
