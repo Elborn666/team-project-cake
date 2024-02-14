@@ -30,6 +30,7 @@
     transition: all 0.5s ease;
 }
 .basket__main-wrapper-list {
+   max-height: 0px;
     padding-left: 32px;
     overflow: hidden;
     opacity: 0;
@@ -285,6 +286,7 @@
     background: var(--second-color);
 }
 .open-spoiler {
+    max-height: 100%;
     opacity: 1;
     transform: translate(0px, 0px);
     pointer-events: all;
