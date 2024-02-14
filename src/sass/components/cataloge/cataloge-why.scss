@@ -40,6 +40,9 @@
     .cataloge__why-list {
         margin-bottom: 20px;
     }
+    .cataloge__why-item {
+        font-size: 20px;
+    }
     .cataloge__why-wrapper-button {
         display: flex;
         justify-content: flex-end;
@@ -50,5 +53,10 @@
             color: var(--white-color);
             background-color: var(--button-color);
         }
+    }
+}
+@media screen and (min-width: 1439.98px) {
+    .cataloge__why-item {
+        font-size: 24px;
     }
 }
