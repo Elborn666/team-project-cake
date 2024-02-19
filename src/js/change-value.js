@@ -1,23 +1,26 @@
-const value = document.querySelector('.js-value');
+const valueInput = document.querySelector('.js-value');
 const changeValue = document.querySelector('.js-change-value');
-const spanTest = document.querySelector('.js-test');
 const reset = document.querySelector('.js-reset');
 
-value.addEventListener('input', onInputValue);
+valueInput.addEventListener('input', onInputValue);
 changeValue.addEventListener('input', onInputRange);
 reset.addEventListener('click', onReset);
 
+
 function onInputRange(event) {
     console.log(event.currentTarget.value)
-    spanTest.textContent = event.currentTarget.value
+    valueInput.value = event.currentTarget.value
 }
 
 function onInputValue(e) {
     console.log(e.currentTarget.value)
-    spanTest.textContent = e.currentTarget.value
+    valueInput.value = e.currentTarget.value
     changeValue.value = e.currentTarget.value
+    if (valueInput.value === "") {
+        valueInput.value = changeValue.value = "100" 
+    }
 }
 
-function onReset(elem) {
-    spanTest.textContent = "100"
+function onReset() {
+    valueInput.value = "100"
 }
