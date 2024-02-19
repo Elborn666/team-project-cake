@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector(".js-value"),t=document.querySelector(".js-change-value"),n=document.querySelector(".js-test"),r=document.querySelector(".js-reset");e.addEventListener("input",(function(e){console.log(e.currentTarget.value),n.textContent=e.currentTarget.value,t.value=e.currentTarget.value})),t.addEventListener("input",(function(e){console.log(e.currentTarget.value),n.textContent=e.currentTarget.value})),r.addEventListener("click",(function(e){n.textContent="100"}))}();
-//# sourceMappingURL=card_basket.09568b51.js.map
