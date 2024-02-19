@@ -176,6 +176,7 @@
     cursor: pointer;
 }
 .wrapper__cart {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,6 +185,23 @@
     height: 32px;
     border: 1px solid rgba(95, 105, 128, 0.80);
     border-radius: 6px;
+}
+.blue-circle {
+    position: absolute;
+    top: -50%;
+    right: -50%;
+
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+
+    font-style: normal;
+    background-color: var(--button-color);
+    border-radius: 50%;
+    color: var(--white-color);
 }
 .icon-cart {
     width: 20px;
