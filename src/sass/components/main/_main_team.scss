@@ -1,5 +1,5 @@
 .team__container {
-  padding-bottom: 40px;
+  padding-bottom: 24px;
 }
 .team__img-wrapper {
   margin-bottom: 40px;
@@ -63,9 +63,6 @@
   line-height: 150%; /* 21px */
 }
 @media screen and (min-width: 479.98px) {
-  .team__container {
-    padding-bottom: 24px;
-  }
   .team__title {
     font-size: 32px;
   }
@@ -80,6 +77,9 @@
   }
 }
 @media screen and (min-width: 767.98px) {
+  .team__container {
+    padding-bottom: 40px;
+  }
   .team__body {
     display: flex;
     column-gap: 20px;
