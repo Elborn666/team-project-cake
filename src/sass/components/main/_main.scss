@@ -31,10 +31,10 @@
   padding-right: 20px;
 }
 .main__title-cake {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-weight: 500;
   margin-bottom: 8px;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 800;
   line-height: 36px;
   line-height: 150%; /* 36px */
@@ -48,8 +48,9 @@
   line-height: 150%; /* 36px */
 }
 .main__button {
-  padding: 8px 26px;
-  background-color: inherit;
+  padding: 8px 32px;
+  background-color: rgba(0, 0, 0, 0.315);
+  border-radius: 25px;
 }
 @media screen and (min-width: 479.98px) {
   .main__wraper-content {
@@ -80,7 +81,9 @@
   .main__button {
     padding: 20px 26px;
     font-size: 26px;
-    border: 3px solid var(--button-color);
+    border-radius: 40px;
+    width: 320px;
+    border: 3px solid black;
   }
 }
 @media screen and (min-width: 991.98px) {
@@ -109,7 +112,16 @@
     width: 1440px;
     padding-left: 80px;
   }
+  .main__button {
+    width: 360px;
+  }
   .main__text {
     margin-bottom: 56px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .image-slide {
+    height: 300px;
+    object-fit: cover;
   }
 }
