@@ -6,7 +6,6 @@ valueInput.addEventListener('input', onInputValue);
 changeValue.addEventListener('input', onInputRange);
 reset.addEventListener('click', onReset);
 
-
 function onInputRange(event) {
     console.log(event.currentTarget.value)
     valueInput.value = event.currentTarget.value

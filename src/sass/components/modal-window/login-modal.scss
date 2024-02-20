@@ -50,7 +50,7 @@
     color: var(--second-color);
     font-size: 20px;
     font-weight: 600;
-    line-height: 100%; /* 60px */
+    line-height: 100%;
 }
 .login__form {
     display: flex;
@@ -72,10 +72,10 @@
 
     color: var(--button-color);
     font-size: 16px;
-    line-height: 22px; /* 137.5% */
+    line-height: 137.5%;
     &::placeholder {
         font-size: 16px;
-        line-height: 22px; /* 137.5% */
+        line-height: 137.5%;
         opacity: 0.2;
     }
 }
@@ -83,7 +83,7 @@
     color: var(--second-color);
     text-align: center;
     font-size: 16px;
-    line-height: 22px; /* 137.5% */
+    line-height: 137.5%;
 }
 .login__button {
     padding: 8px 40px;
@@ -94,7 +94,7 @@
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
-    line-height: 32px; /* 160% */
+    line-height: 160%;
 
     border-radius: 8px;
     border: 1px solid rgba(95, 105, 128, 0.20);
@@ -104,7 +104,7 @@
     color: var(--second-color);
     font-family: "Open Sans";
     font-size: 16px;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
     text-decoration-line: underline;
     text-align: center;
     background-color: inherit;

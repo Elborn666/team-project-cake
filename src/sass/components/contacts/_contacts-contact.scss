@@ -15,11 +15,11 @@
 .contact__contact-link {
     color: var(--general-color);
     font-size: 12px;
-    line-height: 16px; /* 133.333% */
+    line-height: 133.333%;
 }
 .is-active {
     color: var(--second-color);
-    line-height: 16px; /* 133.333% */
+    line-height: 133.333%;
 }
 .contact__contact-body {
     margin-bottom: 24px;
@@ -30,7 +30,7 @@
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 600;
-    line-height: 100%; /* 20px */
+    line-height: 100%;
 }
 .contact__address {
     margin-bottom: 20px;
@@ -38,12 +38,12 @@
 .contact__subtitle {
     margin-bottom: 12px;
     color: var(--second-color);
-    line-height: 150%; /* 21px */
+    line-height: 150%;
     font-weight: 600;
 }
 .contact__link-address {
     color: var(--general-color);
-    line-height: 150%; /* 21px */
+    line-height: 150%;
 }
 .contact__tel {
     display: flex;
@@ -52,14 +52,14 @@
 }
 .conatct__link-tel {
     color: var(--general-color);
-    line-height: 150%; /* 21px */
+    line-height: 150%;
 }
 .conatct__email {
     margin-bottom: 20px;
 }
 .conatct__link-email {
     color: var(--general-color);
-    line-height: 150%; /* 21px */
+    line-height: 150%;
 }
 .conatct__social-list {
     display: flex;
@@ -101,13 +101,13 @@
     color: var(--button-color);
     font-family: "Open Sans";
     font-size: 16px;
-    line-height: 22px; /* 137.5% */
+    line-height: 137.5%;
     border-bottom: 1px solid var(--second-color);
     &::placeholder {
         color: var(--general-color);
         font-family: 'Inter';
         font-size: 16px;
-        line-height: 26px; /* 162.5% */
+        line-height: 162.5%;
     }
 }
 .contact__feedback-wrapper-input {
@@ -120,20 +120,20 @@
     color: var(--general-color);
     font-family: 'Inter';
     font-size: 16px;
-    line-height: 26px; /* 162.5% */
+    line-height: 162.5%;
 }
 .contact__feedback-phone {
     padding: 15px 10px;
     color: var(--button-color);
     font-family: "Open Sans";
     font-size: 16px;
-    line-height: 22px; /* 137.5% */
+    line-height: 137.5%;
     border-left: 1px solid var(--second-color);
     &::placeholder {
         color: var(--general-color);
         font-family: 'Inter';
         font-size: 16px;
-        line-height: 26px; /* 162.5% */
+        line-height: 162.5%;
     }
 }
 .contact__feedback-button {

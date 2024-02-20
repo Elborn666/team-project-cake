@@ -43,7 +43,7 @@
     color: var(--second-color);
     font-size: 20px;
     font-weight: 600;
-    line-height: 100%; /* 60px */
+    line-height: 100%;
 }
 .basket__full-text {
     margin-bottom: 40px;
@@ -55,7 +55,6 @@
 .basket__full-button {
     padding: 8px 26px;
 }
-
 @media screen and (min-width: 479.98px) {
     .basket__full-body {
         padding: 40px 20px;

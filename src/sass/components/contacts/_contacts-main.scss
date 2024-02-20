@@ -35,7 +35,7 @@
     color: var(--second-color);
     font-size: 24px;
     font-weight: 600;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
 }
 .contact__main-wrapper-button {
     display: flex;
@@ -44,7 +44,7 @@
 .contact__main-button {
     margin-top: 8px;
     padding: 8px 40px;
-    line-height: 160%; /* 32px */
+    line-height: 160%;
     background-color: inherit;
 }
 @media screen and (min-width: 479.98px) {

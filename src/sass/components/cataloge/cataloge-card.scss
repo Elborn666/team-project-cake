@@ -14,7 +14,7 @@
     color: var(--general-color);
     font-size: 12px;
     font-weight: 400;
-    line-height: 16px; /* 133.333% */
+    line-height: 133.333%;
 }
 .link-icon {
     width: 16px;
@@ -25,7 +25,7 @@
     color: var(--second-color);
     font-size: 12px;
     font-weight: 400;
-    line-height: 16px; /* 133.333% */
+    line-height: 133.333%;
 }
 .cataloge__list-card {
     display: flex;
@@ -56,7 +56,7 @@
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
-    line-height: 22px; /* 110% */
+    line-height: 110%;
     letter-spacing: -0.275px;
 }
 .cataloge__wrapper-icon {
@@ -116,14 +116,14 @@
     }
     .cataloge__card-link {
         font-size: 16px;
-        line-height: 20px; /* 125% */
+        line-height: 125%;
         &:hover {
             text-decoration: underline;
         }
     }
     .cataloge__card-link span {
         font-size: 16px;
-        line-height: 20px; /* 125% */
+        line-height: 125%;
         &:hover {
             text-decoration: underline;
         }
@@ -208,7 +208,7 @@
     }
     .cataloge__name {
         font-size: 28px;
-        line-height: 34px; /* 121.429% */
+        line-height: 121.429%;
         letter-spacing: -0.6px;
     }
     .cataloge__wrapper-icon {
