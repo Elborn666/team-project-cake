@@ -4,7 +4,6 @@
     padding-right: 0px;
 }
 .contact__wrapper-img {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +19,7 @@
 }
 .contact__wrapper-content {
     position: absolute;
+    z-index: 20;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
