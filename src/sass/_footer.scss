@@ -56,15 +56,20 @@
     height: 100px;
     fill: rgba(0, 22, 72, 0.2);
 }
+.footer__link-logo {
+    text-align: center;
+}
 .footer__name-cake {
     margin-bottom: 16px;
-
+    color: var(--general-color);
     font-size: 60px;
     font-weight: 600;
-    line-height: 60%;
+    line-height: 50%;
 }
 .footer__name-logo {
+    color: var(--general-color);
     font-size: 24px;
+    font-weight: 400;
     font-style: italic;
 }
 .footer__nav {

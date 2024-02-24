@@ -72,16 +72,20 @@
     height: 32px;
     fill: rgba(95, 105, 128, 0.2);
 }
+.header__link-logo {
+    text-align: center;
+}
 .header__name-cake {
     margin-bottom: 14px;
     color: rgba(95, 105, 128, 0.8);
     font-size: 40px;
     font-weight: 600;
-    line-height: 60%;
+    line-height: 50%;
 }
 .header__name-logo {
     color: rgba(95, 105, 128, 0.8);
     font-size: 16px;
+    font-weight: 400;
     font-style: italic;
 }
 .wrapper__user {
