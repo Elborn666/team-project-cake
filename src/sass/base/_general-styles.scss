@@ -41,12 +41,12 @@ body {
 }
 
 .button-inherit {
-  color: var(--white-color);
+  color: black;
   font-family: 'Inter';
   font-size: 20px;
   font-weight: 600;
   line-height: 160%;
-
+  border-radius: 50px;
   // border-radius: 6px;
   border: 2px solid black;
 }

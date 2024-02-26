@@ -9,7 +9,7 @@ let swiper = new Swiper(".swiper", {
     clickable: true,
   },
   autoplay: {
-    delay: 2500
+    delay: 3500
   },
   speed: 1200,
   loom: true,
